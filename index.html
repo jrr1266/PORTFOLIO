@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script src="jquery.easypiechart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:wght@500;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+  <title>CV</title>
+</head>
+<body>
+   <section id="header" class="header">
+        <div class="container-header">
+          <header>
+            <div class="menu-barra">
+              <i
+                class="fa fa-align-justify fa-2x"
+                aria-hidden="true"
+              ></i>
+            </div>
+            <nav id="nav" class="nave" >
+              <a href="#header">START</a>
+              <a href="#sobre">SOBRE MI</a>
+              <a href="#habilidades">HABILIDADES</a>
+              <a href="#portafolio">PORTFOLIO</a>
+              <a href="#contacto">CONTACTO</a>
+            </nav>
+          </header>
+          <div class="container-contenido"  data-aos="fade-up" data-aos-duration="1500"
+     data-aos-anchor-placement="top-center">
+            <h2>JOARIS RAMOS</h2>
+            <h3>Desarrollador FullSTACK</h3>
+          </div>
+          <div class="img"></div>
+        </div>
+      </section>
+
+      <section id="sobre" class="sobre-mi">
+        <div class="container-seccion" data-aos="fade-down" data-aos-duration="1500"
+     data-aos-anchor-placement="top-center">
+          <h2 class="titulo-section">Sobre Mi</h2>
+          <h3>Datos personales</h3>
+          <p>
+            <span class="especial">Mi nombre es Joaris Ramos Ramos </span> ,soy un
+            apasionado de la tecnología y la programación, con un enfoque en el
+            desarrollo web full-stack.
+          </p>
+          <div class="fila">
+            <div class="col">
+              <div class="icono">
+                <i class="fa fa-user-o fa-2x" aria-hidden="true"></i>
+              </div>
+              <span class="titulo-detalle">Perfil</span>
+              <p>
+               En lo personal soy alguien con mucha dedicación y con facilidadad para expresar las ideas.Tengo facilidad para comunicarme con otras personas y veo con buenos ojos las críticas.
+              </p>
+            </div>
+            <div class="col">
+              <div class="icono">
+                <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+              </div>
+              <span class="titulo-detalle">Ubicacion</span>
+              <p>
+                Actuelmente me ubico en la Ciudad de la Habana, el municipo de
+                10 de octubre.
+              </p>
+            </div>
+            <div class="col">
+              <div class="icono">
+                <i class="fa fa-flag fa-2x" aria-hidden="true"></i>
+              </div>
+              <span class="titulo-detalle">Intereses</span>
+              <p>
+                 Me gusta el trabajo en equipo y me apasionan los poyectos interesantes donde pueda estimular la creatividad,aprender nuevas herramientas y compartir conocimiento.
+              </p>
+            </div>
+          </div>
+          <div class="boton">
+            <button>
+              <a href="./CV JOARIS RAMOS .pdf" download="Cv Joaris Ramos Ramos">
+                Descargar CV
+              </a>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="habilidades" id="habilidades" >
+        <h2>Skills</h2>
+              <div class="container">
+                <div class="col2">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart" data-percent="90">
+                      <h4 class="percent">90%</h4>
+                      </div>
+                      <span>HTML/CSS</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart" data-percent="75">
+                    <h4>75%</h4>
+                      </div>
+                      <span>JAVASCRIPT</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart" data-percent="70">
+                      <h4>70%</h4>
+                      </div>
+                      <span>REACT</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart" data-percent="70">
+                      <h4>70%</h4>
+                      </div>
+                      <span>EXPRESS</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col2">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart" data-percent="50">
+                      <h4>50%</h4>
+                      </div>
+                      <span>SQL</span>
+                    </div>
+                  </div>
+                </div><div class="col2">
+                  <div class="score">
+                    <div class="box">
+                      <div class="chart" data-percent="50">
+                      <h4>50%</h4>
+                      </div>
+                      <span>MONGODB</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </section>
+
+      <section class="portafolio" id="portafolio">
+        <div class="contenido-portafolio">
+          <h2>PORTFOLIO</h2>
+          <div class="galeria">
+            <div class="proyecto">
+              <div class="imagen-proyecto-1" data-aos="flip-left" data-aos-duration="3000"></div>
+              <div class="back-1">
+                <h3 title="De click para visitar">
+                  <a
+                    href="https://jrr1266.github.io/online-shop/"
+                    target="_blank"
+                  >
+                    Tienda Online
+                  </a>
+                </h3>
+                <p>
+                  Esta tienda funciona con una Api de prueba, tiene un simple
+                  desing y tiene colores agradables, en la version de PC tiene
+                  una funcionalidad para el zoom de los productos.Viene integrada
+                  con un carrito de comparas con diferentes funciones y un
+                  interfaz de pago.
+                </p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <div class="imagen-proyecto-2" data-aos="flip-left" data-aos-duration="3000"></div>
+               <div class="back-2">
+                <h3 title="De click para visitar">
+                  <a
+                    href="https://jrr1266.github.io/editor/"
+                    target="_blank"
+                  >
+                    Editor de Texto
+                  </a>
+                </h3>
+                <p>
+                  Este editor fue desarrollado con herramientas nativas, html,
+                  css y javascript.Cuenta con funciones para cambiar el tipo de
+                  fuente, la altura,el color, descargar el archivo, imprimir el
+                  archivo, entre otras mas.
+                </p>
+              </div>
+            </div>
+            <div class="proyecto">
+              <div class="imagen-proyecto-3" data-aos="flip-left" data-aos-duration="2000"></div>
+               <div class="back-3">
+                <h3 title="De click para visitar">
+                  <a
+                    href="https://gitfront.io/r/user-5430168/Efc81PyUMpMY/operaciones/"
+                    target="_blank"
+                  >
+                    Servidor para administrar tranferencias bancarias
+                  </a>
+                </h3>
+                <p>
+                  Este Servidor fue desarrollado con las herramientas, express y
+                  sql.Cuenta con funciones para agregar transacciones, consultar transacciones, eliminar transacciones una transaccion en especifico y eliminar la transaccion en una fecha determinada del mes.El proyecto fue iniciado desde cero hasta la fase final del despliegue.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <footer id="contacto" class="contacto">
+        <div class="contenido-contacto" data-aos="zoom-in" data-aos-duration="1500">
+          <h2>Contacto</h2>
+          <div class="buscar">
+            <div class="buscar-telefono">
+              <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+              <h4> Telefono</h4>
+              <span>+53-5892-4317</span>
+            </div>
+            <div class="buscar-correo">
+              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              <h4> Correo</h4>
+              <span>joarisramos672@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+  AOS.init();
+</script>
+      <script src="codigo.js"></script>
+</body>
+</html>
